@@ -1,0 +1,17 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .pipe1::after{
+    content: "|";
+    color: red;
+  }
+  .pipe2{
+    display:inline-block
+  }
+  .gradiants {
+    height: 1320px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(248, 247, 163)); /* Standard syntax (must be last) */
+  }
